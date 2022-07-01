@@ -2,14 +2,15 @@ import React from 'react';
 
 /**
  * 
- * @param {color} color 背景，边框，字体颜色
+ * @param {fontSize} fontSize 字号
+ * @param {margin} margin 边距
  * 
  */
 
 
 export default function Index(props) {
 
-    const { fontSize ='8px',children,margin='2px' } = props;
+    const { children,fontSize ='8px',margin='2px' } = props;
 
 
     const baseStyle = {
