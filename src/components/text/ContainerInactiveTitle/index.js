@@ -21,7 +21,7 @@ export default function Index(props) {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize:`${fontSize}`,
-        color:'#cdcdcd',
+        color:'#949494',
         // border:'1px #ff0000 solid'
     }
 
