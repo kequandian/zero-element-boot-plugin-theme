@@ -18,7 +18,7 @@ export default function Index(props) {
     return React.Children.map(children, child => {
         return (
 
-            <Cart fill='#ffffff' linewidth='0' corner='12px' margin='4px 10px' padding='12px 12px 0 12px'>
+            <Cart fill='#ffffff' linewidth='0' corner='12px' margin='4px 10px' padding='10px'>
                 <>
                     {ContainerTitle}
                     {child}
