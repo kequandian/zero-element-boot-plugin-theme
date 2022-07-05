@@ -1,28 +1,22 @@
-import React from 'react';
-
-/**
- * 
- * @param {fontSize} fontSize 字号
- * @param {margin} margin 边距
- * 
- */
+import React, { useState } from 'react';
 
 
 export default function Index(props) {
 
-    const { children, fontSize = '8px', margin = '2px' } = props;
+    const { children } = props;
 
 
     const baseStyle = {
         textAlign: 'center',
         backgroundColor: '',
-        margin: `${margin}`,
+        margin: '6px 2px 0 2px',
         padding: '0',
         display: 'flex',
-        justifyContent: 'center',
         alignItems: 'center',
-        fontSize: `${fontSize}`,
-        color: '#949494',
+        fontWeight: 'bold',
+        fontSize: '20PX',
+        width: '100%',
+        color: '#c62922',
         // border:'1px #ff0000 solid'
     }
 
