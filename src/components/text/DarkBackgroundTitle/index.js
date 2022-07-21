@@ -8,22 +8,20 @@ import React, { useState } from 'react';
 
 export default function Index(props) {
 
-    const { children } = props;
+    const {children,fontSize='20px' } = props;
 
 
     const baseStyle = {
         textAlign: 'center',
         backgroundColor: '',
-        margin: '2px',
-        padding: '0',
         display: 'flex',
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
+        // border: '1px #ff0000 solid',
         alignItems: 'center',
-        // fontWeight: 'bold',
-        fontSize: '12px',
+        fontSize:`${fontSize}`,
+        color: '#ffffff',
+
     }
-
-
 
     return React.Children.map(children, child => {
         return <div style={baseStyle} >

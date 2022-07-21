@@ -8,21 +8,18 @@ import React, { useState } from 'react';
 
 export default function Index(props) {
 
-    const { color = '#b03931',width='',margin, fontSize='13px',justifyContent='flex-end',children, } = props;
+    const {children } = props;
 
 
     const baseStyle = {
         textAlign: 'center',
         backgroundColor: '',
         display: 'flex',
-        justifyContent: `${justifyContent}`,
+        justifyContent: 'flex-end',
         // border: '1px #ff0000 solid',
         alignItems: 'center',
-        color: `${color}`,
-        margin:`${margin}`,
-        fontSize: `${fontSize}`,
+        fontSize: '13px',
         color: '#b03931',
-        width:`${width}`
 
     }
 

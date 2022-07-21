@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 /**
  * 
+ * @param {fontSize} fontSize 字号
+ * @param {margin} margin 边距
  * 
  */
 
@@ -14,13 +16,15 @@ export default function Index(props) {
     const baseStyle = {
         textAlign: 'center',
         backgroundColor: '',
-        margin: '2px',
+        margin: '',
+        fontWeight: 'bold',
         padding: '0',
         display: 'flex',
-        justifyContent: 'center',
+        justifyContent: 'start',
         alignItems: 'center',
-        // fontWeight: 'bold',
-        fontSize: '12px',
+        fontSize: '18px',
+        color: '#333333',
+        // border:'1px #ff0000 solid'
     }
 
 

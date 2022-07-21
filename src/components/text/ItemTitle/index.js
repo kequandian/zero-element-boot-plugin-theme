@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+/**
+ * 
+ * @param {color} color 背景，边框，字体颜色
+ * 
+ */
 
 
 export default function Index(props) {
@@ -9,12 +14,14 @@ export default function Index(props) {
 
     const baseStyle = {
         textAlign: 'center',
+        backgroundColor: '',
+        margin: '2px 2px 2px 2px',
         padding: '0',
         display: 'flex',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'center',
+        // fontWeight: 'bold',
         fontSize: '14px',
-        height:'26px',
         // border:'1px #ff0000 solid'
     }
 
