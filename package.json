@@ -25,8 +25,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hook-form": "^7.22.2",
-    "zero-element-boot": "github:kequandian/zero-element-boot#pattern",
-    "zero-element-boot-plugin-theme": "github:kequandian/zero-element-boot-plugin-theme#master"
+    "zero-element-boot": "git+ssh://pi@git.f.smallsaas.cn:7207/repo/git/zero-element-boot/zero-element-boot.git#pattern",
+    "zero-element-boot-plugin-theme": "git+ssh://pi@git.f.smallsaas.cn:7207/repo/git/zero-element-boot-plugin-theme/zero-element-boot-plugin-theme.git#master"
 
 
   },
