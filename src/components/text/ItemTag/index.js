@@ -40,7 +40,6 @@ export default function Index(props) {
     
 
   const baseStyle = {
-    textAlign: 'center',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

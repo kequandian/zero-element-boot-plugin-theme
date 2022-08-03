@@ -7,16 +7,11 @@ export default function Index(props) {
 
 
     const baseStyle = {
-        textAlign: 'center',
         backgroundColor: '',
-        margin: '6px 2px 0 2px',
         padding: '0',
-        display: 'flex',
-        alignItems: 'center',
         fontWeight: 'bold',
-        fontSize: '20PX',
-        width: '100%',
-        color: '#c62922',
+        fontSize: '18px',
+        color: '#ff0202',
         // border:'1px #ff0000 solid'
     }
 

@@ -13,7 +13,6 @@ export default function Index(props) {
 
 
     const baseStyle = {
-        textAlign: 'center',
         backgroundColor: '',
         margin: '2px 2px 2px 2px',
         padding: '0',

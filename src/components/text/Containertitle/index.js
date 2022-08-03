@@ -14,7 +14,6 @@ export default function Index(props) {
 
 
     const baseStyle = {
-        textAlign: 'center',
         backgroundColor: '',
         margin: '',
         padding: '0',
