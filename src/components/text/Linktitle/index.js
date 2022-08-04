@@ -13,7 +13,6 @@ export default function Index(props) {
 
     const baseStyle = {
         backgroundColor: '',
-        margin: '2px',
         padding: '0',
         display: 'flex',
         justifyContent: 'flex-start',
