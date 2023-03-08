@@ -11,14 +11,14 @@ import Cart from 'zero-element-boot/lib/components/cart/Cart';
 
 export default function Index(props) {
 
-    const { children, ContainerTitle = '', } = props;
+    const { children, ContainerTitle = '', fill='#ffffff'} = props;
 
 
 
     return React.Children.map(children, child => {
         return (
 
-            <Cart fill='#ffffff' linewidth='0' corner='12px' margin='4px 10px' padding='10px'>
+            <Cart fill={fill} linewidth='0' corner='12px' margin='4px 10px' padding='10px'>
                 <>
                     {ContainerTitle}
                     {child}

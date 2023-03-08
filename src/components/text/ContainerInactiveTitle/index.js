@@ -10,19 +10,13 @@ import React from 'react';
 
 export default function Index(props) {
 
-    const { children, fontSize = '8px', margin = '2px' } = props;
+    const { children, } = props;
 
 
     const baseStyle = {
-        textAlign: 'center',
-        backgroundColor: '',
-        margin: `${margin}`,
         padding: '0',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: `${fontSize}`,
-        color: '#949494',
+        fontSize: '14px',
+        color: '#9299a5',
         // border:'1px #ff0000 solid'
     }
 

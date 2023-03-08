@@ -12,7 +12,6 @@ export default function Index(props) {
 
 
     const baseStyle = {
-        textAlign: 'center',
         backgroundColor: '',
         display: 'flex',
         justifyContent: 'flex-end',

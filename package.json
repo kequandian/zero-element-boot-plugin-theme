@@ -25,9 +25,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hook-form": "^7.22.2",
-    "zero-element-boot": "git+ssh://pi@git.f.smallsaas.cn:7207/repo/git/zero-element-boot/zero-element-boot.git#pattern",
-    "zero-element-boot-plugin-theme": "git+ssh://pi@git.f.smallsaas.cn:7207/repo/git/zero-element-boot-plugin-theme/zero-element-boot-plugin-theme.git#master"
-
+    "zero-element-boot": "git+https://gitee.com/smallsaas/zero-element-boot"
 
   },
   "devDependencies": {
