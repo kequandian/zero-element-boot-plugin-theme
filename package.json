@@ -25,7 +25,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hook-form": "^7.22.2",
-    "zero-element-boot": "github:kequandian/zero-element-boot#pattern"
+    "zero-element-boot": "git+https://gitee.com/smallsaas/zero-element-boot"
 
   },
   "devDependencies": {
