@@ -3,14 +3,11 @@ import React, { useState } from 'react';
 /**
  * 标题栏容器，有一个返回键，页面作为子组件
  * 
- * 
  * @param {children} children 子组件(页面)
  * @param {fill} fill 页面背景
  * 
  */
-
-
-export default function Index(props) {
+export default function Topbar(props) {
 
     const { children,fill='#F4F6F8' } = props;
 

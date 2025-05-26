@@ -1,10 +1,10 @@
 import Itembox from "./layout/Itembox"
-import Topbar from "./app/TopBar1"
+import Topbar from "./app/Topbar"
 
 export {
-    Itembox
+    Itembox,
 
     //app
-    Topbar,
+    Topbar
 }
 
